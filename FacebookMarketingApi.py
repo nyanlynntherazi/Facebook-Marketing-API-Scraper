@@ -5,7 +5,7 @@ import csv
 import datetime
 
 places = pd.read_csv('facebookdata.csv',header=None)
-access_token = 'EAAHWZCIthsaYBAFayo1sFnraY3z1oJShktMvbrZACLjWzMlaA2Waekx8BYpWp0bBcZCr5t3GZAVNw59ZB7ZAaUWtJxipP3BtKb3cZAfAAg20ZA7ms7mrwntZB4vUZC5p5uF1TVXZAxCy71DKuWKFTpS0xHN8YsdNcs8MU1ufhgtaXpKhgZDZD'
+access_token = ''
 
 def url_constructor(place_id):
     ac_id = '&access_token='
